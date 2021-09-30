@@ -19,7 +19,7 @@ class Item(Resource):
 
     def post(self, name):
         if next(filter(lambda x: x['name'] == name, items), None) is not None:
-            return {'message': "An item with name '{}' already exists.".format(name)}, 400 #status code - 404 bad request
+            return {'message': "An item with name '{}' already exists.".format(name)}, 400 #status code - 400 bad request
 
         #json payload, silent=True -> returns none, no error msg
         data = request.get_json(silent=True)
