@@ -17,7 +17,7 @@ app.config["PROPAGATE_EXCEPTIONS"] = True   # if flask_jwt raises an error, the 
 app.config["JWT_BLACKLIST_ENABLED"] = True
 app.config["JWT_BLACKLIST_TOKEN_CHECKS"] = ["access", "refresh"]   # both access and refresh tokens will be denied for the user ids 
 
-app.secret_key = "komraishumtirkomchuri"
+app.secret_key = "RunesIsWanda"
 # app.config["JWT_SECRET_KEY"] = "YOUR KEY HERE"
 
 api = Api(app)
