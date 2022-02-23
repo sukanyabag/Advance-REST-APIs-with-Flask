@@ -1,0 +1,4 @@
+Flask
+Flask-RESTful
+Flask_-JWT-Extended
+Flask-SQLAlchemy
