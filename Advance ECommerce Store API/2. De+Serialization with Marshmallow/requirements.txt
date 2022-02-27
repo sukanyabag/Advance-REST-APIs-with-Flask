@@ -1,4 +1,7 @@
 Flask
 Flask-RESTful
-Flask_-JWT-Extended
+Flask-JWT-Extended
 Flask-SQLAlchemy
+Flask_marshmallow
+Marshmallow
+marshmallow-sqlalchemy
