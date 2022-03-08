@@ -1,0 +1,35 @@
+{
+    "mailgun_failed_load_api_key": "Failed to load Mailgun API key! Make sure you have set it.",
+    "mailgun_failed_load_domain":"Failed to load Mailgun Domain. Make sure you have set it.",
+    "mailgun_error_send_email":  "Error in sending activation email. User registeration failed!",
+  
+    "confirmation_not_found": "Confirmation reference not found.",
+    "confirmation_link_expired": "The confirmation link has expired! Please sign up again to receive confirmation link.",
+    "confirmation_already_confirmed": "Your registeration is already confirmed. Thank you for registering.",
+    "confirmation_resend_fail": "Internal server error. Failed to resend confirmation email.",
+    "confirmation_resend_successful": "E-mail confirmation successfully re-sent.",
+  
+    "item_name_exists": "An item with name '{}' already exists!",
+    "item_error_inserting": "Sorry! An error occured inserting the item!",
+    "item_admin_priviledges_reqd": "Admin priviledges required for this action!",
+    "item_login_to_view_data": "Please first login to view more data!",
+    "item_not_found": "Item not found! Please enter a valid item.",
+    "item_deleted": "'{}' has been deleted successfully!",
+  
+    "store_name_exists": "A store with name '{}' already exists.",
+    "store_error_inserting": "An error occurred while creating the store '{}'.",
+    "store_not_found": "'{}' store cannot be found! Please enter a valid store.",
+    "store_deleted": "'{}' store has been successfully deleted!",
+  
+    "user_username_exists": "A user with name '{}' already exists!",
+    "user_email_exists": "A user with that email already exists. Please enter another email.",
+    "user_not_found": "User not found! Please enter a valid user.",
+    "user_deleted": "User has been deleted successfully!",
+    "user_invalid_credentials": "The credentials entered are invalid! Please check again.",
+    "user_logged_out": "User successfully logged out!",
+    "user_logged_in": "User successfully logged in!",
+    "user_not_confirmed": "You have not confirmed registration, please check your email <{}>.",
+    "user_confirmed": "User confirmation successful.",
+    "user_error_creating": "Oops! Internal Server Error.(Our mistake!) Failed to create user!",
+    "user_registered": "Your account has been created successfully. An email with an activation link has been sent to your mail address. Please activate your account to continue."
+}
