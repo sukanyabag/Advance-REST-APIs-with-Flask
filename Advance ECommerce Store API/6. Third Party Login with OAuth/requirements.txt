@@ -1,0 +1,12 @@
+Flask
+Flask-RESTful
+Flask-JWT-Extended
+Flask-SQLAlchemy
+Marshmallow
+Flask-Marshmallow
+Marshmallow-SQLAlchemy
+Python-Dotenv
+Flask-Uploads
+Flask-Migrate
+Flask-OAuthlib
+psycopg2-binary
