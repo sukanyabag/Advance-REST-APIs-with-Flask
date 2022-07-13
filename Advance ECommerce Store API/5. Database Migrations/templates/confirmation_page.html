@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Confirmation</title>
+    <link href="{{url_for('static', filename='confirmation_page.css')}}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="jumbotron text-center full-height">
+      <h1>Thank You</h1>
+      <p>Your registration has been confirmed through < {{ email }} >.</p>
+    </div>
+
+    <footer class="text-center">
+      <hr>
+      <h4>Activated on: <span id='date-time'></span></h4>
+      <script>
+        var today = new Date();
+        var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+        var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+        var dateTime = date+' '+time;
+        document.getElementById("date-time").innerHTML = dateTime;
+      </script>
+    </footer>
+  </div>
+
+</body>
+</html>
